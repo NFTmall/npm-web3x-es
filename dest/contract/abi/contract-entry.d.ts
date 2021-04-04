@@ -1,8 +1,0 @@
-import { ContractEntryDefinition } from './contract-abi-definition';
-export declare class ContractEntry {
-    protected entry: ContractEntryDefinition;
-    constructor(entry: ContractEntryDefinition);
-    readonly name: string | undefined;
-    readonly anonymous: boolean;
-    asString(): any;
-}
