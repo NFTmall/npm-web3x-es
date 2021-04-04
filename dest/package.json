@@ -1,0 +1,50 @@
+{
+  "name": "web3x",
+  "version": "4.0.6",
+  "license": "LGPL-3.0",
+  "description": "Typescript port of web3.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xf00f/web3x.git"
+  },
+  "homepage": "https://github.com/xf00f/web3x",
+  "bugs": {
+    "url": "https://github.com/xf00f/web3x/issues"
+  },
+  "keywords": [
+    "Ethereum",
+    "TypeScript",
+    "API",
+    "Web3"
+  ],
+  "contributors": [
+    {
+      "name": "xf00f",
+      "email": "xf00f@protonmail.com",
+      "url": "https://github.com/xf00f"
+    }
+  ],
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "dependencies": {
+    "@types/bn.js": "^4.11.2",
+    "@types/node": "^10.12.18",
+    "@types/ws": "^6.0.1",
+    "bip39": "^2.5.0",
+    "bn.js": "^4.11.8",
+    "browserify-aes": "^1.2.0",
+    "elliptic": "^6.4.0",
+    "hdkey": "^1.1.0",
+    "idna-uts46-hx": "^2.3.1",
+    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-ws": "^4.0.1",
+    "pbkdf2": "^3.0.17",
+    "randombytes": "^2.0.6",
+    "rlp": "^2.2.3",
+    "swarm-js": "^0.1.39",
+    "tslib": "^1.9.3",
+    "utf8": "^3.0.0",
+    "ws": "^6.1.0"
+  }
+}
